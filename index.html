@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Color Game!</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
+    
+    <!-- Own CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <h1>Find RGB Color:</br><span id="color-display"></span></h1>
+
+        <div class="text-center" id="stripe">
+            <div>
+                <button class="btn big-btn" id="reset">New Colors</button>
+            </div>
+            <div>
+                <button class="btn mode selected" id="easy">Easy</button>
+                <button class="btn mode" id="middle">Medium</button>
+                <button class="btn mode" id="hard">Hard</button>
+            </div>
+            <div>
+                <button class="btn big-btn" id="message" disabled>Let's Try!</button>
+                <button class="btn big-btn" id="score" disabled>Score: 
+                    <span id="score-span">0</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container-square">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript - jQuery first, then Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Own JavaScript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
